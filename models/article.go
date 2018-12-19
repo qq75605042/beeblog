@@ -34,6 +34,10 @@ func init() {
 	orm.RegisterModel(new(Article))
 }
 
+func (a Article) TableName() string{
+	return "articles"
+}
+
 // AddArticle insert a new Article into database and returns
 // last inserted Id on success.
 func AddArticle(m *Article) (id int64, err error) {
