@@ -1,3 +1,0 @@
-2018/12/19 23:16:51.617 [I] [asm_amd64.s:1333]  http server Running on http://:8080
-2018/12/19 23:17:04.973 [D] [server.go:2741]  |            ::1|[42m 200 [0m|  11.867386ms|   match|[44m GET     [0m /     r:/
-2018/12/19 23:17:05.179 [D] [server.go:2741]  |            ::1|[42m 200 [0m|     93.603µs|   match|[44m GET     [0m /static/images/Logo_40.png
